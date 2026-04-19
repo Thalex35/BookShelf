@@ -1,0 +1,96 @@
+:root {
+  /* ── Fond & surfaces ─────────────────────────── */
+  --bg-app: #f7f4ef;
+  --bg-surface: #ffffff;
+  --bg-surface2: #f0ece4;
+  --border-color: rgba(0, 0, 0, 0.08);
+
+  /* ── Typographie ────────────────────────────── */
+  --text-primary: #1a1714;
+  --text-secondary: #6b6560;
+  --text-muted: #9e9891;
+
+  /* ── Accent ─────────────────────────────────── */
+  --accent: #2e75b6;
+  --accent-dark: #1e3a5f;
+
+  /* ── Logo ───────────────────────────────────── */
+  --logo-icon-bg: #2e75b6;
+  --logo-icon-color: #ffffff;
+  --logo-text-color: #1a1714;
+
+  /* ── Sidebar ────────────────────────────────── */
+  --sidebar-bg: #ffffff;
+  --sidebar-text: #6b6560;
+  --sidebar-label: #9e9891;
+  --sidebar-active-bg: #e8f0f8;
+  --sidebar-active-text: #2e75b6;
+
+  /* ── Navbar ─────────────────────────────────── */
+  --navbar-bg: #ffffff;
+  --search-bg: #f0ece4;
+  --search-placeholder: #9e9891;
+  --icon-color: #6b6560;
+  --btn-inscrire-bg: #1e3a5f;
+  --btn-inscrire-text: #ffffff;
+  --btn-connexion-text: #1a1714;
+
+  /* ── Stats (Accueil) ────────────────────────── */
+  --card-bg: #ffffff;
+  --card-label: #9e9891;
+  --stat-total: #2e75b6;
+  --stat-toread: #b5621e;
+  --stat-reading: #6b6560;
+  --stat-done: #1a6b3a;
+
+  /* ── Book cards ─────────────────────────────── */
+  --bookcard-bg: #ffffff;
+  --bookcard-title: #1a1714;
+  --bookcard-author: #6b6560;
+  --btn-add-bg: #f0ece4;
+  --btn-add-text: #6b6560;
+  --cover-blue: #2e75b6;
+  --cover-orange: #b5621e;
+  --cover-dark: #2c2c2a;
+  --cover-purple: #6b3fa0;
+  --cover-green: #1a6b3a;
+  --cover-letter: #ffffff;
+
+  /* ── Formulaires (Login & Inscription) ──────── */
+  --form-card-bg: #ffffff;
+  --form-title: #1a1714;
+  --form-subtitle: #6b6560;
+  --form-label: #6b6560;
+  --input-bg: #f0ece4;
+  --input-placeholder: #9e9891;
+  --input-text: #1a1714;
+  --input-focus-border: #2e75b6;
+  --btn-submit-bg: #1e3a5f;
+  --btn-submit-text: #ffffff;
+  --form-footer-text: #6b6560;
+  --form-link: #2e75b6;
+
+  /* ── Ma liste ───────────────────────────────── */
+  --filter-active-bg: #1e3a5f;
+  --filter-active-text: #ffffff;
+  --filter-bg: #ffffff;
+  --filter-text: #1a1714;
+  --empty-icon-color: #9e9891;
+  --empty-text: #6b6560;
+  --btn-discover-bg: #2e75b6;
+  --btn-discover-text: #ffffff;
+
+  /* ── À propos ───────────────────────────────── */
+  --about-card-bg: #ffffff;
+  --about-title: #1a1714;
+  --about-text: #6b6560;
+  --tech-pill-bg: #f0ece4;
+  --tech-pill-text: #6b6560;
+  --section-label: #9e9891;
+  --avatar-m1: #2e75b6;
+  --avatar-m2: #b5621e;
+  --avatar-m3: #1a6b3a;
+  --avatar-m4: #6b3fa0;
+  --team-name: #1a1714;
+  --team-role: #6b6560;
+}
