@@ -1,16 +1,38 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+BookShelf permet à chaque utilisateur de rechercher des livres, de constituer sa liste de lecture personnelle et de suivre sa progression (À lire / En cours / Terminé). Le projet intègre un système d'authentification complet et un mode clair/sombre.
+✨ Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔍 Recherche de livres via l'Open Library API (gratuite, sans clé)
+📖 Page détail de chaque livre avec description, auteur, année, pages
+🔖 Ma liste — ajouter, retirer, changer le statut d'un livre
+🔐 Inscription & connexion avec validation et persistance localStorage
+🌙 Mode clair / sombre mémorisé entre les sessions
+💾 Persistance — la liste et les préférences survivent au rechargement
 
-## React Compiler
+# 1. Cloner le repo
+git clone https://github.com/votre-username/bookshelf.git
+cd bookshelf
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 2. Installer les dépendances
+npm install
 
-## Expanding the ESLint configuration
+# 3. Lancer le serveur de développement
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Chaque membre travaille sur sa propre branche
+git checkout -b feature/ma-fonctionnalite
+
+# Commits clairs et fréquents
+git add .
+git commit -m "Add BookCard component"
+git push origin feature/ma-fonctionnalite
+
+# Ouvrir une Pull Request sur GitHub vers main
+# Membre 1 review et merge
+
+⚠️ Authentification front-end uniquement — Les mots de passe sont stockés en clair dans localStorage. Cette approche est acceptable pour un projet académique d'apprentissage React. Dans un vrai projet, utiliser un back-end avec hachage bcrypt et tokens JWT.
+
+
+💡 Mock data — Pendant la Phase 2, les membres 3, 6 et 7 peuvent utiliser des données fictives pour ne pas dépendre de l'API avant que les contextes soient prêts.
