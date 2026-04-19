@@ -1,14 +1,23 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./composants/pages/HomePage";
+import AboutPage from "./composants/pages/AboutPage";
+import BookDetail from "./composants/pages/BookDetail";
+import LoginPage from "./composants/pages/LoginPage";
+import MyList from "./composants/pages/MyList";
+import SignUp from "./composants/pages/SignUp";
 
 export default function App() {
   return (
-    // nou met efase sa yo epi sa ki nan app.css lan tou
-    // pou chak fonksyonalite nou genyen, kreye yon nouvo brach
-    // git checkout -b "non fonksyonalite a" tankou
-    // git checkout -b ThemeDarkLight/Theodore
-
-    <div className="h1">
-      <h1>Bon courage guys !</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/book" element={<BookDetail />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/my-list" element={<MyList />} />
+        <Route path="/signup" element={<SignUp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
