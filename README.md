@@ -12,7 +12,7 @@ BookShelf permet à chaque utilisateur de rechercher des livres, de constituer s
 💾 Persistance — la liste et les préférences survivent au rechargement
 
 # 1. Cloner le repo
-git clone https://github.com/votre-username/bookshelf.git
+git clone https://github.com/Thalex35/bookshelf.git
 cd bookshelf
 
 # 2. Installer les dépendances
